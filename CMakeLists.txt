@@ -20,6 +20,13 @@ add_library(algo_lib ${CPU_SRCS} ${GPU_SRCS})
 find_package(OpenMP REQUIRED COMPONENTS CXX)
 target_link_libraries(algo_lib PRIVATE OpenMP::OpenMP_CXX)
 
+# --- FIX START: Find the CUDA Toolkit explicitly ---
+find_package(CUDAToolkit REQUIRED)
+target_link_libraries(algo_lib PRIVATE CUDA::cufft)
+# --- FIX END ---
+
+# --- Benchmarks ---
+
 add_executable(reduction_bench benchmarks/reduction_bench.cpp)
 target_link_libraries(reduction_bench algo_lib)
 
@@ -32,3 +39,5 @@ target_link_libraries(scan_bench algo_lib)
 add_executable(convolution_bench benchmarks/convolution_bench.cpp)
 target_link_libraries(convolution_bench algo_lib)
 
+add_executable(fft_bench benchmarks/fft_bench.cpp)
+target_link_libraries(fft_bench algo_lib)

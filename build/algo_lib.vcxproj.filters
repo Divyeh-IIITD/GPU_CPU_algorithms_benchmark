@@ -4,6 +4,9 @@
     <ClCompile Include="C:\Users\Divyeh\OneDrive\Desktop\cuda-bench\src\cpu\convolution.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\Divyeh\OneDrive\Desktop\cuda-bench\src\cpu\fft.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\Divyeh\OneDrive\Desktop\cuda-bench\src\cpu\matmul.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -16,6 +19,9 @@
   </ItemGroup>
   <ItemGroup>
     <CudaCompile Include="..\src\gpu\convolution.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\src\gpu\fft.cu">
       <Filter>Source Files</Filter>
     </CudaCompile>
     <CudaCompile Include="..\src\gpu\matmul.cu">

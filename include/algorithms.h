@@ -1,6 +1,8 @@
 #pragma once
 #include <vector>
 
+#include <complex>
+
 // CPU Function
 float cpu_reduce_omp(const std::vector<float>& data);
 
@@ -29,3 +31,12 @@ void cpu_convolution(const float* input, const float* mask, float* output, int w
 
 // GPU Implementation (Constant Memory + Shared Memory)
 float gpu_convolution(const float* d_input, const float* d_mask, float* d_output, int width, int height, int mask_width);
+
+
+// --- Fast Fourier Transform (FFT) ---
+// CPU Baseline (Cooley-Tukey Recursive)
+// Note: Input/Output are complex numbers (Real + Imaginary)
+void cpu_fft(const std::complex<float>* input, std::complex<float>* output, int n);
+
+// GPU Implementation (using cuFFT Library)
+float gpu_fft_library(const std::complex<float>* h_in, std::complex<float>* h_out, int n);

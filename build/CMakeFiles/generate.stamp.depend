@@ -92,6 +92,7 @@ C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/XLClang-CXX-DetermineCom
 C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/zOS-C-DetermineCompiler.cmake
 C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake
 C:/Program Files/CMake/share/cmake-4.2/Modules/CompilerId/VS-10.vcxproj.in
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindCUDAToolkit.cmake
 C:/Program Files/CMake/share/cmake-4.2/Modules/FindOpenMP.cmake
 C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake
 C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageMessage.cmake

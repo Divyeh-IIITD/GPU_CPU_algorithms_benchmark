@@ -8,6 +8,9 @@
       <FullPath>C:\Users\Divyeh\OneDrive\Desktop\cuda-bench\build\Release\convolution_bench.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
+      <FullPath>C:\Users\Divyeh\OneDrive\Desktop\cuda-bench\build\Release\fft_bench.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>C:\Users\Divyeh\OneDrive\Desktop\cuda-bench\build\Release\matmul_bench.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>

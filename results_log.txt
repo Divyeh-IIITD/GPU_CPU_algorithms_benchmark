@@ -28,3 +28,19 @@
 	CPU Time: 112.01 ms
 	GPU Time: 0.46 ms
 	Speedup:  243.61x
+
+5. Fast Fourier Transform
+	Benchmark (N = 1048576)
+
+	CPU FFT (Recursive)
+	GPU cuFFT
+
+	--- Verification (First 5 Frequencies) ---
+	Idx 0 | CPU: 8.43421e-05 | GPU: 8.43421e-05 | Diff: 0
+	Idx 1 | CPU: 524288 | GPU: 524288 | Diff: 0.0625
+	Idx 2 | CPU: 262145 | GPU: 262145 | Diff: 0.0625
+	Idx 3 | CPU: 0.834052 | GPU: 0.825101 | Diff: 0.00895071
+	Idx 4 | CPU: 0.507691 | GPU: 0.507691 | Diff: 1.19209e-07
+	CPU Time: 365.17 ms
+	GPU Time: 0.11 ms
+	Speedup:  3364.29x
