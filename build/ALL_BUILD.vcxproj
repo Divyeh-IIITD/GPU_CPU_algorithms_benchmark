@@ -179,6 +179,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{78CBDFBC-2191-3601-BD1A-68726851241E}</Project>
       <Name>algo_lib</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\Divyeh\OneDrive\Desktop\cuda-bench\build\matmul_bench.vcxproj">
+      <Project>{0EBB194B-4FFB-3E6A-9C85-086853801092}</Project>
+      <Name>matmul_bench</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\Divyeh\OneDrive\Desktop\cuda-bench\build\reduction_bench.vcxproj">
       <Project>{232CAA97-006C-333B-9BF0-AC0B0787759C}</Project>
       <Name>reduction_bench</Name>

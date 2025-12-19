@@ -22,3 +22,6 @@ target_link_libraries(algo_lib PRIVATE OpenMP::OpenMP_CXX)
 
 add_executable(reduction_bench benchmarks/reduction_bench.cpp)
 target_link_libraries(reduction_bench algo_lib)
+
+add_executable(matmul_bench benchmarks/matmul_bench.cpp)
+target_link_libraries(matmul_bench algo_lib)

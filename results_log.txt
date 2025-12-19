@@ -5,3 +5,14 @@
 	GPU Time: 1.25645 ms
 	Speedup:  27.50x
 	Result Correct
+
+2. Matrix Multiplication
+	
+	Running Matrix Multiplication Benchmark (N = 1024x1024)...
+
+	Running CPU OpenMP...
+	CPU Time:      860.33 ms
+	GPU Naive:     75.39 ms
+	GPU Tiled:     2.05 ms
+	Tiled Speedup: 36.74x over Naive
+	Correctness:   PASS
