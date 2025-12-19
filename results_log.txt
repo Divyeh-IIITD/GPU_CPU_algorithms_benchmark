@@ -21,3 +21,10 @@
 	CPU Time: 1.28 ms
 	GPU Time: 0.70 ms
 	Speedup: 1.82x
+
+4. Convolution
+
+	2D Convolution Benchmark (4K Image: 3840x2160)
+	CPU Time: 112.01 ms
+	GPU Time: 0.46 ms
+	Speedup:  243.61x

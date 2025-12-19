@@ -382,6 +382,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="C:\Users\Divyeh\OneDrive\Desktop\cuda-bench\src\cpu\convolution.cpp">
+      <ObjectFileName>$(IntDir)/src/cpu/convolution.cpp.obj</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="C:\Users\Divyeh\OneDrive\Desktop\cuda-bench\src\cpu\matmul.cpp">
       <ObjectFileName>$(IntDir)/src/cpu/matmul.cpp.obj</ObjectFileName>
     </ClCompile>
@@ -391,6 +394,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\Divyeh\OneDrive\Desktop\cuda-bench\src\cpu\scan.cpp">
       <ObjectFileName>$(IntDir)/src/cpu/scan.cpp.obj</ObjectFileName>
     </ClCompile>
+    <CudaCompile Include="..\src\gpu\convolution.cu">
+      <CompileOut>$(IntDir)/src/gpu/convolution.cu.obj</CompileOut>
+    </CudaCompile>
     <CudaCompile Include="..\src\gpu\matmul.cu">
       <CompileOut>$(IntDir)/src/gpu/matmul.cu.obj</CompileOut>
     </CudaCompile>

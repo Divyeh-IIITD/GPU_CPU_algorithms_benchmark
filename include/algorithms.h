@@ -22,3 +22,10 @@ void cpu_scan_std(const float* input, float* output, int n);
 
 // GPU Implementation (Blelloch Work-Efficient)
 float gpu_scan_blelloch(float* d_in, float* d_out, int n);
+
+// --- 2D Convolution ---
+// CPU Baseline
+void cpu_convolution(const float* input, const float* mask, float* output, int width, int height, int mask_width);
+
+// GPU Implementation (Constant Memory + Shared Memory)
+float gpu_convolution(const float* d_input, const float* d_mask, float* d_output, int width, int height, int mask_width);

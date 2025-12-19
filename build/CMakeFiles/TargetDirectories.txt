@@ -2,5 +2,6 @@ C:/Users/Divyeh/OneDrive/Desktop/cuda-bench/build/CMakeFiles/algo_lib.dir
 C:/Users/Divyeh/OneDrive/Desktop/cuda-bench/build/CMakeFiles/reduction_bench.dir
 C:/Users/Divyeh/OneDrive/Desktop/cuda-bench/build/CMakeFiles/matmul_bench.dir
 C:/Users/Divyeh/OneDrive/Desktop/cuda-bench/build/CMakeFiles/scan_bench.dir
+C:/Users/Divyeh/OneDrive/Desktop/cuda-bench/build/CMakeFiles/convolution_bench.dir
 C:/Users/Divyeh/OneDrive/Desktop/cuda-bench/build/CMakeFiles/ALL_BUILD.dir
 C:/Users/Divyeh/OneDrive/Desktop/cuda-bench/build/CMakeFiles/ZERO_CHECK.dir
