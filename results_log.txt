@@ -1,0 +1,7 @@
+1. Parallel Reduction
+
+	Running Benchmark with N = 67108864...
+	CPU Time: 34.5553 ms
+	GPU Time: 1.25645 ms
+	Speedup:  27.50x
+	Result Correct

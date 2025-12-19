@@ -1,0 +1,10 @@
+^C:\USERS\DIVYEH\ONEDRIVE\DESKTOP\CUDA-BENCH\BUILD\CMAKEFILES\E9E721C1A10DB3917DA469C5C840D17E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Divyeh/OneDrive/Desktop/cuda-bench -BC:/Users/Divyeh/OneDrive/Desktop/cuda-bench/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Divyeh/OneDrive/Desktop/cuda-bench/build/GpuAlgoBenchmarks.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
