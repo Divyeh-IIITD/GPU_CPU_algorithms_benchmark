@@ -1,18 +1,23 @@
 1. Parallel Reduction
 
-	Running Benchmark with N = 67108864...
+	Running Benchmark with N = 67108864
 	CPU Time: 34.5553 ms
 	GPU Time: 1.25645 ms
 	Speedup:  27.50x
-	Result Correct
 
 2. Matrix Multiplication
 	
-	Running Matrix Multiplication Benchmark (N = 1024x1024)...
+	Running Matrix Multiplication Benchmark (N = 1024x1024)
 
 	Running CPU OpenMP...
 	CPU Time:      860.33 ms
 	GPU Naive:     75.39 ms
 	GPU Tiled:     2.05 ms
 	Tiled Speedup: 36.74x over Naive
-	Correctness:   PASS
+
+3. Prefix Sum
+
+	Input: 1,048,576 elements (Float)
+	CPU Time: 1.28 ms
+	GPU Time: 0.70 ms
+	Speedup: 1.82x

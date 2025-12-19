@@ -25,3 +25,6 @@ target_link_libraries(reduction_bench algo_lib)
 
 add_executable(matmul_bench benchmarks/matmul_bench.cpp)
 target_link_libraries(matmul_bench algo_lib)
+
+add_executable(scan_bench benchmarks/scan_bench.cpp)
+target_link_libraries(scan_bench algo_lib)

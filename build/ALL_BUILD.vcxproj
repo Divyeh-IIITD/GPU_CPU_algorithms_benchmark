@@ -187,6 +187,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{232CAA97-006C-333B-9BF0-AC0B0787759C}</Project>
       <Name>reduction_bench</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\Divyeh\OneDrive\Desktop\cuda-bench\build\scan_bench.vcxproj">
+      <Project>{EFC44DF2-E39E-33A6-968D-780508FD0609}</Project>
+      <Name>scan_bench</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -7,12 +7,18 @@
     <ClCompile Include="C:\Users\Divyeh\OneDrive\Desktop\cuda-bench\src\cpu\reduction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\Divyeh\OneDrive\Desktop\cuda-bench\src\cpu\scan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CudaCompile Include="..\src\gpu\matmul.cu">
       <Filter>Source Files</Filter>
     </CudaCompile>
     <CudaCompile Include="..\src\gpu\reduction.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\src\gpu\scan.cu">
       <Filter>Source Files</Filter>
     </CudaCompile>
   </ItemGroup>
