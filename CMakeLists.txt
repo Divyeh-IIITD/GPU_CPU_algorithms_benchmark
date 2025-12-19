@@ -31,3 +31,4 @@ target_link_libraries(scan_bench algo_lib)
 
 add_executable(convolution_bench benchmarks/convolution_bench.cpp)
 target_link_libraries(convolution_bench algo_lib)
+
